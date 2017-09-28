@@ -1,4 +1,4 @@
-
+﻿
 git安装 ：https://pan.baidu.com/s/1kU5OCOB#list/path=%2Fpub%2Fgit
 
 什么是版本库呢？版本库又名仓库，英文名repository，你可以简单理解成一个目录，这个目录里面的所有文件都可以被Git管理起来，每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。
@@ -57,3 +57,72 @@ git commit命令执行成功后会告诉你，1个文件被改动（我们新添
 $ git add file1.txt
 $ git add file2.txt file3.txt
 $ git commit -m "add 3 files."
+
+
+归结：
+$ git config --global user.name "殷腊梅"
+$ git config --global user.email "1141485216@qq.com"
+
+
+
+1、cd 转到文件（建立仓库最好在一个空白文件）
+$ cd E:\gitProject
+
+显示当前木兰路
+$ pwd
+
+
+
+初始化一个Git仓库，使用git init命令。
+$  git init
+
+
+添加文件到Git仓库，分两步：
+
+第一步，使用命令git add <file>，注意，可反复多次使用，添加多个文件；（记住先把文件放在仓库的文件夹下面）
+$ git add readme.txt
+
+
+第二步，使用命令git commit，完成。
+$ git commit -m "wrote a readme file"
+
+---------------------------------------下面是记载完整的过程-------------------------------------------------------------------
+fineex@DESKTOP-29C67I9 MINGW64 ~
+$ git config --global user.name "殷腊梅"
+
+fineex@DESKTOP-29C67I9 MINGW64 ~
+$ git config --global user.email "1141485216@qq.com"
+
+fineex@DESKTOP-29C67I9 MINGW64 ~
+$ mkdir learngit
+
+fineex@DESKTOP-29C67I9 MINGW64 ~
+$ cd learngit
+
+fineex@DESKTOP-29C67I9 MINGW64 ~/learngit
+$ pwd
+/c/Users/fineex/learngit
+
+fineex@DESKTOP-29C67I9 MINGW64 ~/learngit
+$ cd E:\gitProject
+
+fineex@DESKTOP-29C67I9 MINGW64 /e/gitProject
+$ pwd
+/e/gitProject
+
+fineex@DESKTOP-29C67I9 MINGW64 /e/gitProject
+$  git init
+Initialized empty Git repository in E:/gitProject/.git/
+
+fineex@DESKTOP-29C67I9 MINGW64 /e/gitProject (master)
+$ git add readme.txt
+fatal: pathspec 'readme.txt' did not match any files
+
+fineex@DESKTOP-29C67I9 MINGW64 /e/gitProject (master)
+$ git add readme.txt
+
+fineex@DESKTOP-29C67I9 MINGW64 /e/gitProject (master)
+$ git commit -m "wrote a readme file"
+[master (root-commit) 7598555] wrote a readme file
+ 1 file changed, 59 insertions(+)
+ create mode 100644 readme.txt
