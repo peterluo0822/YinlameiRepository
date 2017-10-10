@@ -1,0 +1,18 @@
+1、创建一个数组包括数组元素所占的空间和额外开销（对象指针，同步块索引）
+2、创建多维数组            int[,,,] a;
+3、数组复制：
+var names = new[] { "Tom","Pamila",null};//null 可以转换为任何类型的引用
+//var Ages = new[] { 20, 20, null };//error null 不能转换为int
+//var deiscriblw = new[] { "Tom", 10 };//string 和 int ,不能确定是何种类型
+var students = new[] { new { name = "Tom", age = 25 } , new { name = "Pamila", age = 29} };
+4、数组转换
+//IFormattable[]  Source = new IFormattable[2] ;
+//IComparable[] dest = new IComparable[Source.Length];
+//System.Array.Copy(Source, dest, Source.Length);//二者都是引用类型，引用类型保存的是指向堆得指针，任何两个应用类型可以互相copy
+
+IFormattable[] Source = new IFormattable[2];
+IComparable[] dest = new IComparable[Source.Length];
+System.Array.ConstrainedCopy(Source,0, dest,0, Source.Length);//运行时错误，错误类型不能强制转换
+
+5数据组继承与array,数组实作了多个接口，所以数组可以调用这些方法，当一维数组时实作类型接口，譬如IList<int>
+public abstract class Array : ICloneable, IList, ICollection, IEnumerable, IStructuralComparable, IStructuralEquatable

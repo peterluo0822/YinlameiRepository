@@ -1,0 +1,33 @@
+此次总结需要注意的地方
+1、在静态类的静态方法中为实例添加扩张方法（值类型，引用类型都可以添加扩展方法）
+2、扩展方法可以为泛型方法,制定类型的实例都可以使用这个方法
+for examp：
+  public static TEnum[] GetColorValues<TEnum>( this TEnum t) where TEnum : struct
+        {
+            return (TEnum[])Enum.GetValues(typeof(TEnum));
+        }
+
+3、Enum 有几个方法需要注意一下：
+Parse转换时会抛出异常，TryParse转换时不会抛出异常，注意一下out在方法中的用法
+IsDefined 是否定义:Enum.IsDefined(typeof(Fruit.Color), "black"
+
+Fruit.Color black;
+//此处会报错，不成的转换
+//black = (Fruit.Color)Enum.Parse(typeof(Fruit.Color), "black");
+
+ //TryParse,当转换失败时，默认值时第一个，譬如black=Fruit.Color.red
+bool result = Enum.TryParse<Fruit.Color>("black",out black);
+    
+4、注意一下接口实现（Color.cs），适合集合类型的操作，譬如商品的集合
+IEnumerator<T>, IEnumerable<T>,IEnumerator,IEnumerable
+泛型的优点：(1)减少装箱次数（参数为object的都需要装箱和拆箱，譬如array）
+(2)类型是安全的，当参数为object时无法预料会传什么样的值
+(3)针对特定类型实作接口，看看int32的定义
+public struct Int32 : IComparable, IFormattable, IConvertible, IComparable<Int32>, IEquatable<Int32>
+
+5、为标志
+Action cc = Action.Add &Action.edit;
+
+6、
+struct 不能为字段赋值
+不能为之定义无参数的构造函数

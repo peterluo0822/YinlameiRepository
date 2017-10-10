@@ -29,7 +29,7 @@ namespace EnumTest
             foreach (Fruit.Color item in colors)
                 Console.WriteLine(string.Format(string.Format("name={0},value={1}", Enum.GetName(typeof(Fruit.Color), item), item.ToString("D"))));
 
-            //扩张方法
+            //扩展方法
             Fruit.Color[] colors2 = new Fruit.Color().GetColorValues();
             foreach (Fruit.Color item in colors2)
                 Console.WriteLine(string.Format(string.Format("name={0},value={1}", Enum.GetName(typeof(Fruit.Color), item), item.ToString("D"))));
@@ -47,6 +47,15 @@ namespace EnumTest
                 KeyValuePair<string, int> item = color.Current;
                 Console.WriteLine(string.Format("key={0},value={1}",item.Key,item.Value));
             }
+
+            //索引器
+            Console.WriteLine("索引器");
+            int Value = color["red"];
+            Console.WriteLine(Value);
+            KeyValuePair<string, int> IndexByIndex = color[2];
+            Console.WriteLine(string.Format("key={0},value={1}", IndexByIndex.Key, IndexByIndex.Value));
+
+
 
             Fruit.Color red = (Fruit.Color)Enum.Parse(typeof(Fruit.Color), "red");
 
@@ -77,7 +86,6 @@ namespace EnumTest
 
             //------------------未Enum添加方法,方法应该是扩展方法(扩张方法只能对实例有用)
             new Action().Print();
-
             Console.ReadLine();
         }
 
