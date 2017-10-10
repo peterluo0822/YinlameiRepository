@@ -1,0 +1,17 @@
+1、用到委托时尽量使用泛型委托
+ Action<in T,in T，…… >,没有返回值的泛型委托，最多有16个参数
+ TResult Func<in T,,……，out TResult>(T arg)带返回值的泛型委托，最多有16个输入参数，
+ 最后一个是输出参数的类型
+ 2、当委托对应的方法很简单时，可以使用匿名委托，例如下面第一个（lambda表达式不易维护，查过三行代码
+ 就不要使用这种写法，另外写一个方法）
+   ThreadPool.QueueUserWorkItem(obj => Console.WriteLine(obj), i);
+   ThreadPool.QueueUserWorkItem(new WaitCallback(WriteData), i);
+
+   3、 
+   public static bool operator ==(Delegate d1, Delegate d2);//操作符重载
+
+   4、
+   public abstract class MulticastDelegate : Delegate
+
+   5、什么情况下需要用反射的方式创建委托呢？
+
