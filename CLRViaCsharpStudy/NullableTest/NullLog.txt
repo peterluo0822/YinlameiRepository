@@ -1,0 +1,27 @@
+1、操作符重载 ，对于操作符重载不能改变参数个数和结果，即单目运算符只能有一个参数
+ public static  UserInfo operator ++(UserInfo info)
+ public static UserInfo operator +(UserInfo info1, UserInfo info2)
+
+2、显示转换explicit和隐式转换implicit
+（1）public static explicit operator UserInfo(int id)//从int类型转换为UserInfo需要显示转换
+（2）public static implicit operator UserInfo(string name) //从string转换为 UserInfo 可以隐式转换
+
+forexam：
+UserInfo info4 = (UserInfo)20;
+UserInfo info5 = "Tom";
+
+3、null 的运算符符操作（图片 null逻辑运算.png 有详细说明）
+（1）单目运算，操作数为null结果就为null
+（2）+ - * /，一个操作数为null，结合null
+（3）操作数都为null，==结果是相等
+（4）>、 >= 、<、 <= 一个操作数为null 结果是false
+
+特别需要注意的是短路比较（&与&&的区别：第一个表达式为false，&&不会计算第二个表达式，&会）（只要有true|结果为true，只要有false&结果为false）
+
+       1  参数1     true                        false                           null 
+---------------------------------------------------------------------------------------------------------------
+参数2  1  true     &=true  |=true         &=false  |=true                   &=null |=true
+          false    &=false |=true         &=false  |=false                  &=false|=null
+          null     &=null  |=true         &=false  |=null                   &=null|=null
+
+4、空操作符??,左边不为null取左边，否则取右边

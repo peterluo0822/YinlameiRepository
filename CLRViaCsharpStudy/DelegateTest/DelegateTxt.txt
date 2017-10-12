@@ -14,4 +14,5 @@
    public abstract class MulticastDelegate : Delegate
 
    5、什么情况下需要用反射的方式创建委托呢？
+  
 
