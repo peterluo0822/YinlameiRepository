@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLRViaCsharpStudy", "CLRViaCsharpStudy\CLRViaCsharpStudy.csproj", "{4B132145-8F9F-486C-B8BC-C4B37F367A5A}"
 EndProject
@@ -15,12 +15,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributeTest", "AttributeT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableTest", "NullableTest\NullableTest.csproj", "{9EB516E5-C00F-4F42-AB50-805A6B2B2C1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionTest", "ExceptionTest\ExceptionTest.csproj", "{72050E7C-2B95-49DC-965A-077C0639DC07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionTest", "ExceptionTest\ExceptionTest.csproj", "{72050E7C-2B95-49DC-965A-077C0639DC07}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RequireTest", "..\RequireTest\", "{C076F789-B6BF-408A-9B63-08A4FA9AD145}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55639"
+		Debug.AspNetCompiler.PhysicalPath = "..\RequireTest\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55639\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55639"
+		Release.AspNetCompiler.PhysicalPath = "..\RequireTest\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55639\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55639"
+		SlnRelativePath = "..\RequireTest\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
 EndProject
 Global
-	GlobalSection(Performance) = preSolution
-		HasPerformanceSessions = true
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -54,11 +73,18 @@ Global
 		{72050E7C-2B95-49DC-965A-077C0639DC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72050E7C-2B95-49DC-965A-077C0639DC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72050E7C-2B95-49DC-965A-077C0639DC07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C076F789-B6BF-408A-9B63-08A4FA9AD145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C076F789-B6BF-408A-9B63-08A4FA9AD145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C076F789-B6BF-408A-9B63-08A4FA9AD145}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C076F789-B6BF-408A-9B63-08A4FA9AD145}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0DD7A44-838B-45DC-989E-E1114C45BB61}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
 	EndGlobalSection
 EndGlobal
