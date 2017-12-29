@@ -18,7 +18,7 @@ namespace MainFrame
 
         }
 
-        private bool _isHome = true;
+        private bool _isHome = true; 
 
         /// <summary>
         /// 是否为首页 True首页，显示背景图，Flase导航页，显示导航。
