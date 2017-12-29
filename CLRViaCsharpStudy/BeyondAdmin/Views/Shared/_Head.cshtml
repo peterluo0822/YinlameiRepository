@@ -1,0 +1,51 @@
+﻿@model JinQiao.Integration.Model.UserM
+@using Common.DataType.Message
+<style>
+    span.xiaoxi {
+        line-height: 12px;
+        padding: 1px 5px;
+        position: absolute;
+        right: 6px;
+        top: 2px;
+    }
+
+    .setfasize::before {
+        font-size: 18px;
+    }
+</style>
+<nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <a class="navbar-minimalize minimalize-styl-2 btn btn-info " href="#"><i class="fa fa-bars"></i> </a>
+    </div>
+
+    <ul class="nav navbar-top-links navbar-right">
+        <li class="dropdown">
+            <span class="dropdown-toggle count-info am">
+                <i class="fa">
+                    <img alt="image" class="img-circle" src="~/Content/HAdmin/img/gongsi.jpg" style="width:35px; height:35px;">
+                    <font style="font-family:'微软雅黑'; font-size: 12px; color: #333;">&nbsp;&nbsp;@Model.Password</font>
+                </i>
+            </span>
+        </li>
+        <li class="dropdown">
+            <a class="dropdown-toggle count-info am" data-toggle="dropdown" href="#">
+                <i class="fa">
+                    <img alt="image" class="img-circle" src="~/Content/HAdmin/img/a1.jpg" style="width:35px; height:35px;">
+                    <font style="font-family:'微软雅黑'; font-size: 12px; color: #333;" data-info='@ViewBag.UserInfoModel' id="h_UserInfoModel">&nbsp;&nbsp;@Model.OperatorName</font>
+                </i>
+            </a>
+            <ul class="dropdown-menu dropdown-messages">
+                <li class="m-t-xs">
+                    <div class="dropdown-messages-box">
+                        <a class="btn btn-primary btn-rounded btn-block" href="#" onclick="CancelLogin()"><i class="fa fa-times"></i> 注销登录</a>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li class="dropdown hidden-xs">
+            <a class="right-sidebar-toggle" aria-expanded="false" title="未读通知" id="show_msgcounta">
+                <i class="fa fa-bell setfasize"></i> <span class="label label-primary xiaoxi" id="show_msgcountspan" data-count="0">0</span>
+            </a>
+        </li>
+    </ul>
+</nav>

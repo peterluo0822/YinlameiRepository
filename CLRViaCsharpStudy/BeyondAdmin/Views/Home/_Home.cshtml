@@ -1,0 +1,159 @@
+﻿@{
+    ViewBag.Title = "Home";
+    Layout = null;
+}
+<link rel="shortcut icon" href="~/Content/HAdmin/icon.ico">
+@Styles.Render("~/Hadmin/base/Home/css")
+<style>
+    #right-sidebar {
+        top: 50px !important;
+    }
+
+    ul.nav-1 li {
+        width: 100%;
+    }
+
+        ul.nav-1 li.active a {
+            background: #2f4050 !important;
+            color: #fff !important;
+        }
+
+    .tab-content-overshow {
+        overflow: auto;
+        height: calc(100% - (43px)) !important;
+    }
+
+    .sidebar-container-auto {
+        width: auto;
+        height: 100%;
+    }
+
+    .sidebar-message:hover {
+        background-color: #f6d17a !important;
+    }
+
+    .text-muted {
+        color: #fa7f27;
+    }
+</style>
+
+<body class="fixed-sidebar full-height-layout gray-bg">
+    <div id="wrapper">
+        <!--左侧导航开始-->
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            @{
+                Html.RenderAction("_Menu", new { controller = "Home" });
+            }
+        </nav>
+        <!--左侧导航结束-->
+        <!--右侧部分开始-->
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+            <div class="row border-bottom">
+
+            </div>
+            <div class="row content-tabs">
+                <button class="roll-nav roll-left J_tabLeft">
+                    <i class="fa fa-backward"></i>
+                </button>
+                <nav class="page-tabs J_menuTabs">
+                    <div class="page-tabs-content">
+                        <a href="javascript:;" class="active J_menuTab" data-id="index_v1.html">首页</a>
+                    </div>
+                </nav>
+                <button class="roll-nav roll-right J_tabRight" style="right:80px;">
+                    <i class="fa fa-forward"></i>
+                </button>
+                <div class="btn-group roll-nav roll-right" style="right:0;">
+                    <button class="dropdown J_tabClose" data-toggle="dropdown">
+                        关闭操作<span class="caret"></span>
+                    </button>
+                    <ul role="menu" class="dropdown-menu dropdown-menu-right">
+                        <li class="J_tabShowActive">
+                            <a>定位当前选项卡</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="J_tabCloseAll">
+                            <a>关闭全部选项卡</a>
+                        </li>
+                        <li class="J_tabCloseOther">
+                            <a>关闭其他选项卡</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row J_mainContent" id="content-main">
+                <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="/Home/Welcome" frameborder="0" data-id="index_v1.html" seamless></iframe>
+            </div>
+        </div>
+        <!--右侧部分结束-->
+        <!--右侧边栏开始-->
+        <div id="right-sidebar">
+            <div class="sidebar-container sidebar-container-auto">
+                <ul class="nav nav-tabs navs-2">
+                    <li class="active">
+                        <a data-toggle="tab" href="#tab-1" id="navtab1">
+                            未读通知
+                        </a>
+                    </li>
+                    <li class="">
+                        <a data-toggle="tab" href="#tab-2" id="navtab2">
+                            历史通知
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content tab-content-overshow">
+                    <div id="tab-1" class="tab-pane active">
+                        <div class="sidebar-title">
+                            <h3> <i class="fa fa-comments-o"></i> 最新通知</h3>
+                            <small><i class="fa fa-tim"></i> </small>
+                        </div>
+                        <div class="msglist">
+                            @*未读消息item*@
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tab-pane">
+                        <div class="sidebar-title">
+                            <h3> <i class="fa fa-comments-o"></i> 历史通知</h3>
+                            <small><i class="fa fa-tim"></i> </small>
+                        </div>
+                        <div class="msglist">
+                            @*历史通知item*@
+                        </div>
+                        <div style="width:100%;height:30px;background-color:#e3eef7;text-align:center;overflow:hidden;">
+                            <button class="btn btn-success " type="button" onclick="GetPageReadMsg(this)" style="z-index: 100;" id="btn_LoadMore"><i class="fa fa-search"></i>点击加载更多...</button>
+                            <span style="z-index: 99;display:none; ">已经没有更多了...</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--右侧边栏结束-->
+    </div>
+   @Scripts.Render("~/Hadmin/base/Home/js")
+
+    @Scripts.Render("~/Hadmin/base/Home/pace/js")
+
+
+    <script src="~/Scripts/jquery.signalR-2.2.2.min.js"></script>
+    @*消息获取*@
+   @Scripts.Render("~/Scripts/Home/Head.js")
+
+    <script>
+        var chat;
+        var _msgCount = 0;
+        //var _UserInfoModel;
+        $(function () {
+          
+            $.connection.hub.url = "http://localhost:8080/signalr";
+            chat = $.connection.myHub;
+           
+
+            $.connection.hub.start().done(function () {
+
+            })
+
+        })
+    </script>
+</body>

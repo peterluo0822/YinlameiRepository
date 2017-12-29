@@ -80,6 +80,27 @@
             <simple-counter></simple-counter>
         </div>
 
+        <ul>
+            <child v-for="item in groceryList" v-bind:message="item.text"></child>
+        </ul>
+
+        <div>
+            <input v-model="parentMsg">
+            <br>
+            <ul>
+                <child v-bind:message="parentMsg"></child>
+            </ul>
+        </div>
+
+
+        <div>
+            <input v-model="showmodle"  v-bind:value="familyname">
+            <ul>
+                <li>{{firstname}}</li>
+                <li v-bind:key="1">{{lastName}}</li>
+                <li>{{showmodle}}</li>
+            </ul>
+</div>
 
     </div>
 

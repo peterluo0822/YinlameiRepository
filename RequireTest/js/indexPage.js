@@ -19,6 +19,14 @@
         }
     })
 
+    vue.component('child', {
+        // 声明 props
+        props: ['message'],
+        // 就像 data 一样，prop 也可以在模板中使用
+        // 同样也可以在 vm 实例中通过 this.message 来使用
+        template: '<li><span>{{ message }}</span></li>'
+    })
+
     var appData = new vue({
         el: "#app",
         data: {  
@@ -28,6 +36,9 @@
             picked: '',
             selected: '',
             selectedc: [],
+            firstname: 'Yin',
+            lastName: 'LaMei',
+            showmodle:'',
             groceryList: [
                 { id: 0, text: '蔬菜' },
                 { id: 1, text: '奶酪' },
@@ -36,9 +47,31 @@
         },
         computed: 
         {
+            fullname: {
+                get: function () { return firstname + lastName; },
+                set: function(newdtr) {
+                    firstname = newdtr.splipt(' ')[0];
+                    lastName = newdtr.splipt(' ')[1];
+                    alert("set");
+                }
+            },
+            familyname: function ()
+            {
+                return fullname;
+            },
             selectdestr:function ()
             {
                 return "123ert789opt";
+            }
+
+        },
+        watch: {
+            selectedc: function (newstr, old) {
+                alert("old:" + old + ",new:" + newstr);
+            },
+            showmodle: function (newstr, old) {
+                lastName = newstr;
+                alert("changge");
             }
         }
     });

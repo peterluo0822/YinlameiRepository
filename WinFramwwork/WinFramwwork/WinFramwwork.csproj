@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{001F82EF-CCA3-4E6C-BAA8-06F230F32BBC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinFramwwork</RootNamespace>
+    <AssemblyName>WinFramwwork</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>WinFramework\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinFormsUI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>rederence\WinFormsUI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FramworkTool\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FramworkTool\BaseForm.designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FramworkTool\ButtonType.cs" />
+    <Compile Include="FramworkTool\CommonFrame.cs" />
+    <Compile Include="FramworkTool\SkinMemage.cs" />
+    <Compile Include="FramworkTool\StateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FramworkTool\StateForm.designer.cs">
+      <DependentUpon>StateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FramworkTool\ucMenuLeft.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FramworkTool\ucMenuLeft.designer.cs">
+      <DependentUpon>ucMenuLeft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FramworkTool\ucRightTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FramworkTool\ucRightTool.designer.cs">
+      <DependentUpon>ucRightTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FramworkTool\ucToolMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FramworkTool\ucToolMenu.designer.cs">
+      <DependentUpon>ucToolMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBottom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBottom.designer.cs">
+      <DependentUpon>frmBottom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuFill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuFill.designer.cs">
+      <DependentUpon>frmMenuFill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRight.designer.cs">
+      <DependentUpon>frmRight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Func\CommonFunc.cs" />
+    <Compile Include="Func\CSVFileHelper.cs" />
+    <Compile Include="Func\DataSetProcess.cs" />
+    <Compile Include="Func\DBPaperSize.cs" />
+    <Compile Include="Func\GetPCInfo.cs" />
+    <Compile Include="Func\Gloable.cs" />
+    <Compile Include="Func\HardWare.cs" />
+    <Compile Include="Func\IMainFrame.cs" />
+    <Compile Include="Func\IniFiles.cs" />
+    <Compile Include="Func\Utility.cs" />
+    <Compile Include="MainFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrom.designer.cs">
+      <DependentUpon>MainFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FramworkTool\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FramworkTool\StateForm.resx">
+      <DependentUpon>StateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FramworkTool\ucMenuLeft.resx">
+      <DependentUpon>ucMenuLeft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FramworkTool\ucRightTool.resx">
+      <DependentUpon>ucRightTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FramworkTool\ucToolMenu.resx">
+      <DependentUpon>ucToolMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBottom.resx">
+      <DependentUpon>frmBottom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuFill.resx">
+      <DependentUpon>frmMenuFill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRight.resx">
+      <DependentUpon>frmRight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrom.resx">
+      <DependentUpon>MainFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\max_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\max_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\max_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\min_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\min_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\min_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restore_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restore_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restore_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolDown_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolDown_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolDown_norma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolUp_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolUp_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ToolUp_norma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\右箭头.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\左箭头.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="rederence\WinFormsUI.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

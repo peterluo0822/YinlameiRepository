@@ -1,0 +1,730 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <ModuleCode>01    </ModuleCode>
+    <ParentModuleCode>0     </ParentModuleCode>
+    <ModuleName>系统管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table>
+  <Table>
+    <ModuleCode>02    </ModuleCode>
+    <ParentModuleCode>0     </ParentModuleCode>
+    <ModuleName>货源管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table>
+  <Table>
+    <ModuleCode>03    </ModuleCode>
+    <ParentModuleCode>0     </ParentModuleCode>
+    <ModuleName>订单管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table>
+  <Table>
+    <ModuleCode>04    </ModuleCode>
+    <ParentModuleCode>0     </ParentModuleCode>
+    <ModuleName>运营管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table>
+  <Table>
+    <ModuleCode>06    </ModuleCode>
+    <ParentModuleCode>0     </ParentModuleCode>
+    <ModuleName>会员管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table>
+  <Table>
+    <ModuleCode>07    </ModuleCode>
+    <ParentModuleCode>0     </ParentModuleCode>
+    <ModuleName>报表管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table>
+  <Table>
+    <ModuleCode>08    </ModuleCode>
+    <ParentModuleCode>0     </ParentModuleCode>
+    <ModuleName>夺宝管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table>
+  <Table>
+    <ModuleCode>09    </ModuleCode>
+    <ParentModuleCode>0     </ParentModuleCode>
+    <ModuleName>服务商管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table>
+  <Table>
+    <ModuleCode>10    </ModuleCode>
+    <ParentModuleCode>0     </ParentModuleCode>
+    <ModuleName>多任务管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table>
+  <Table1>
+    <ModuleCode>0101  </ModuleCode>
+    <ParentModuleCode>01    </ParentModuleCode>
+    <ModuleName>系统管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table1>
+  <Table1>
+    <ModuleCode>0201  </ModuleCode>
+    <ParentModuleCode>02    </ParentModuleCode>
+    <ModuleName>货源管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table1>
+  <Table1>
+    <ModuleCode>0301  </ModuleCode>
+    <ParentModuleCode>03    </ParentModuleCode>
+    <ModuleName>订单管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table1>
+  <Table1>
+    <ModuleCode>0401  </ModuleCode>
+    <ParentModuleCode>04    </ParentModuleCode>
+    <ModuleName>运营管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table1>
+  <Table1>
+    <ModuleCode>0601  </ModuleCode>
+    <ParentModuleCode>06    </ParentModuleCode>
+    <ModuleName>会员管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table1>
+  <Table1>
+    <ModuleCode>0701  </ModuleCode>
+    <ParentModuleCode>07    </ParentModuleCode>
+    <ModuleName>报表管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table1>
+  <Table1>
+    <ModuleCode>0801  </ModuleCode>
+    <ParentModuleCode>08    </ParentModuleCode>
+    <ModuleName>夺宝管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table1>
+  <Table1>
+    <ModuleCode>0901  </ModuleCode>
+    <ParentModuleCode>09    </ParentModuleCode>
+    <ModuleName>服务商管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table1>
+  <Table1>
+    <ModuleCode>1001  </ModuleCode>
+    <ParentModuleCode>10    </ParentModuleCode>
+    <ModuleName>多任务管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName />
+    <AssemblyName />
+  </Table1>
+  <Table2>
+    <ModuleCode>070116</ModuleCode>
+    <ParentModuleCode>0701  </ParentModuleCode>
+    <ModuleName>供货商报表</ModuleName>
+    <Url />
+    <SortNum>0</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.SupplierReport</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>080101</ModuleCode>
+    <ParentModuleCode>0801  </ParentModuleCode>
+    <ModuleName>夺宝活动管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.LotteryManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>080102</ModuleCode>
+    <ParentModuleCode>0801  </ParentModuleCode>
+    <ModuleName>夺宝商品管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.LotteryCommodityinfoCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>080103</ModuleCode>
+    <ParentModuleCode>0801  </ParentModuleCode>
+    <ModuleName>夺宝订单处理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.MemberOrder.Modify.LotteryfrmOrderProcessing</ClassName>
+    <AssemblyName>FineEx.SDP.MemberOrder.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>080104</ModuleCode>
+    <ParentModuleCode>0801  </ParentModuleCode>
+    <ModuleName>积分管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.ScoreManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>080105</ModuleCode>
+    <ParentModuleCode>0801  </ParentModuleCode>
+    <ModuleName>积分配置管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.ScoreSonfigCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>080106</ModuleCode>
+    <ParentModuleCode>0801  </ParentModuleCode>
+    <ModuleName>签到文案管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.SignMessageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>080107</ModuleCode>
+    <ParentModuleCode>0801  </ParentModuleCode>
+    <ModuleName>分享文案配置</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.ShareContentCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>090101</ModuleCode>
+    <ParentModuleCode>0901  </ParentModuleCode>
+    <ModuleName>服务商晋升条件</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.frmPromotionConditionsCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>090102</ModuleCode>
+    <ParentModuleCode>0901  </ParentModuleCode>
+    <ModuleName>服务商奖励条件</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.frmTeamRewardsCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>090103</ModuleCode>
+    <ParentModuleCode>0901  </ParentModuleCode>
+    <ModuleName>服务商奖励</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.ServicerAchievementCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>060101</ModuleCode>
+    <ParentModuleCode>0601  </ParentModuleCode>
+    <ModuleName>分销商查询</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.DistributorCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>100103</ModuleCode>
+    <ParentModuleCode>1001  </ParentModuleCode>
+    <ModuleName>多任务用户管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.MultitaskingUserCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>010101</ModuleCode>
+    <ParentModuleCode>0101  </ParentModuleCode>
+    <ModuleName>权限管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.OperatorManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>020113</ModuleCode>
+    <ParentModuleCode>0201  </ParentModuleCode>
+    <ModuleName>属性管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.frmNatureManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>020113</ModuleCode>
+    <ParentModuleCode>0201  </ParentModuleCode>
+    <ModuleName>SPU管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.SPUManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>020114</ModuleCode>
+    <ParentModuleCode>0201  </ParentModuleCode>
+    <ModuleName>商品规格管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.frmCommodityNatureManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>020115</ModuleCode>
+    <ParentModuleCode>0201  </ParentModuleCode>
+    <ModuleName>品牌管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.BrandManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>020116</ModuleCode>
+    <ParentModuleCode>0201  </ParentModuleCode>
+    <ModuleName>类目管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.CategoryManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>030108</ModuleCode>
+    <ParentModuleCode>0301  </ParentModuleCode>
+    <ModuleName>订单处理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.MemberOrder.Modify.frmOrderProcessing</ClassName>
+    <AssemblyName>FineEx.SDP.MemberOrder.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>020104</ModuleCode>
+    <ParentModuleCode>0201  </ParentModuleCode>
+    <ModuleName>备案商品管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.CommodityinfoCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>030112</ModuleCode>
+    <ParentModuleCode>0301  </ParentModuleCode>
+    <ModuleName>异常订单处理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.MemberOrder.frmOrderExcepManage</ClassName>
+    <AssemblyName>FineEx.SDP.MemberOrder.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>040115</ModuleCode>
+    <ParentModuleCode>0401  </ParentModuleCode>
+    <ModuleName>轮播管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.frmSpreadCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>040117</ModuleCode>
+    <ParentModuleCode>0401  </ParentModuleCode>
+    <ModuleName>活动运营管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.ActiveManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>040118</ModuleCode>
+    <ParentModuleCode>0401  </ParentModuleCode>
+    <ModuleName>优惠券管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.CouponTypeManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>040120</ModuleCode>
+    <ParentModuleCode>0401  </ParentModuleCode>
+    <ModuleName>售后管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.OrderServiceManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>040121</ModuleCode>
+    <ParentModuleCode>0401  </ParentModuleCode>
+    <ModuleName>SMP账号管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.MemberManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>040122</ModuleCode>
+    <ParentModuleCode>0401  </ParentModuleCode>
+    <ModuleName>商品推荐管理</ModuleName>
+    <Url />
+    <SortNum>1</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.CommodityRecommendManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>010102</ModuleCode>
+    <ParentModuleCode>0101  </ParentModuleCode>
+    <ModuleName>用户管理</ModuleName>
+    <Url />
+    <SortNum>2</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.frmUserMamage</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>020102</ModuleCode>
+    <ParentModuleCode>0201  </ParentModuleCode>
+    <ModuleName>供应商商品管理</ModuleName>
+    <Url />
+    <SortNum>2</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.CommoditySourceCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>020103</ModuleCode>
+    <ParentModuleCode>0201  </ParentModuleCode>
+    <ModuleName>供货商管理</ModuleName>
+    <Url />
+    <SortNum>3</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.SupplierContractCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>010103</ModuleCode>
+    <ParentModuleCode>0101  </ParentModuleCode>
+    <ModuleName>异常管理</ModuleName>
+    <SortNum>3</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.AppExceptionCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>030103</ModuleCode>
+    <ParentModuleCode>0301  </ParentModuleCode>
+    <ModuleName>异常订单</ModuleName>
+    <Url />
+    <SortNum>3</SortNum>
+    <ClassName>FineEx.SDP.MemberOrder.frmOrderException</ClassName>
+    <AssemblyName>FineEx.SDP.MemberOrder.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>070103</ModuleCode>
+    <ParentModuleCode>0701  </ParentModuleCode>
+    <ModuleName>商品销量查询</ModuleName>
+    <Url />
+    <SortNum>3</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.CommoditySalesQueryCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>060105</ModuleCode>
+    <ParentModuleCode>0601  </ParentModuleCode>
+    <ModuleName>提现审核</ModuleName>
+    <Url />
+    <SortNum>4</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.frmTakeCashManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>060106</ModuleCode>
+    <ParentModuleCode>0601  </ParentModuleCode>
+    <ModuleName>退款审核</ModuleName>
+    <Url />
+    <SortNum>4</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.frmOrderRefundMoneyManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>090104</ModuleCode>
+    <ParentModuleCode>0901  </ParentModuleCode>
+    <ModuleName>服务商基础信息</ModuleName>
+    <Url />
+    <SortNum>4</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.frmUserServicerCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>060107</ModuleCode>
+    <ParentModuleCode>0601  </ParentModuleCode>
+    <ModuleName>收益查询</ModuleName>
+    <Url />
+    <SortNum>5</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.frmUserIncomeManageCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>070105</ModuleCode>
+    <ParentModuleCode>0701  </ParentModuleCode>
+    <ModuleName>平台数据总揽</ModuleName>
+    <Url />
+    <SortNum>5</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.PlatformDataQueryCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>070106</ModuleCode>
+    <ParentModuleCode>0701  </ParentModuleCode>
+    <ModuleName>分销数据</ModuleName>
+    <Url />
+    <SortNum>6</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.distributionData</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>020109</ModuleCode>
+    <ParentModuleCode>0201  </ParentModuleCode>
+    <ModuleName>仓库管理</ModuleName>
+    <Url />
+    <SortNum>6</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.frmWarehouseManage</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>030109</ModuleCode>
+    <ParentModuleCode>0301  </ParentModuleCode>
+    <ModuleName>用户团购订单</ModuleName>
+    <Url />
+    <SortNum>7</SortNum>
+    <ClassName>FineEx.SDP.MemberOrder.frmUserGroupInfoCtl</ClassName>
+    <AssemblyName>FineEx.SDP.MemberOrder.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>070107</ModuleCode>
+    <ParentModuleCode>0701  </ParentModuleCode>
+    <ModuleName>销售日报表</ModuleName>
+    <Url />
+    <SortNum>7</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.SalesDailyReport</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>070108</ModuleCode>
+    <ParentModuleCode>0701  </ParentModuleCode>
+    <ModuleName>收入日报表</ModuleName>
+    <Url />
+    <SortNum>8</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.IncomeDailyReport</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>030110</ModuleCode>
+    <ParentModuleCode>0301  </ParentModuleCode>
+    <ModuleName>团购订单</ModuleName>
+    <Url />
+    <SortNum>8</SortNum>
+    <ClassName>FineEx.SDP.MemberOrder.frmGroupOrderCtl</ClassName>
+    <AssemblyName>FineEx.SDP.MemberOrder.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>030111</ModuleCode>
+    <ParentModuleCode>0301  </ParentModuleCode>
+    <ModuleName>订单成交数据</ModuleName>
+    <Url />
+    <SortNum>9</SortNum>
+    <ClassName>FineEx.SDP.MemberOrder.OrderTradeDataCtl</ClassName>
+    <AssemblyName>FineEx.SDP.MemberOrder.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>070109</ModuleCode>
+    <ParentModuleCode>0701  </ParentModuleCode>
+    <ModuleName>店铺日报表</ModuleName>
+    <Url />
+    <SortNum>9</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.ShopDailyReport</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>070110</ModuleCode>
+    <ParentModuleCode>0701  </ParentModuleCode>
+    <ModuleName>用户日报表</ModuleName>
+    <Url />
+    <SortNum>10</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.UserDailyReport</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>070111</ModuleCode>
+    <ParentModuleCode>0701  </ParentModuleCode>
+    <ModuleName>商品日报表</ModuleName>
+    <Url />
+    <SortNum>11</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.GoodsDailyReport</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>070112</ModuleCode>
+    <ParentModuleCode>0701  </ParentModuleCode>
+    <ModuleName>销售月报表</ModuleName>
+    <Url />
+    <SortNum>12</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.SalesMonthReport</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>070113</ModuleCode>
+    <ParentModuleCode>0701  </ParentModuleCode>
+    <ModuleName>商品类目报表</ModuleName>
+    <Url />
+    <SortNum>13</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.GoodsCategoryReport</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>040113</ModuleCode>
+    <ParentModuleCode>0401  </ParentModuleCode>
+    <ModuleName>帮助与客服</ModuleName>
+    <SortNum>13</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.HelpSreviceCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>030113</ModuleCode>
+    <ParentModuleCode>0301  </ParentModuleCode>
+    <ModuleName>异常物流订单</ModuleName>
+    <Url />
+    <SortNum>13</SortNum>
+    <ClassName>FineEx.SDP.MemberOrder.LogisticsTrackCtl</ClassName>
+    <AssemblyName>FineEx.SDP.MemberOrder.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>070114</ModuleCode>
+    <ParentModuleCode>0701  </ParentModuleCode>
+    <ModuleName>商品详情报表</ModuleName>
+    <Url />
+    <SortNum>14</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.GoodsDetailReport</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>070115</ModuleCode>
+    <ParentModuleCode>0701  </ParentModuleCode>
+    <ModuleName>活动统计</ModuleName>
+    <Url />
+    <SortNum>15</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.ActiveReport</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>040123</ModuleCode>
+    <ParentModuleCode>0401  </ParentModuleCode>
+    <ModuleName>晒单审核</ModuleName>
+    <Url />
+    <SortNum>15</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.frmShaidanCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>040124</ModuleCode>
+    <ParentModuleCode>0401  </ParentModuleCode>
+    <ModuleName>消息管理</ModuleName>
+    <Url />
+    <SortNum>16</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.frmMessageTemplateCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>040120</ModuleCode>
+    <ParentModuleCode>0401  </ParentModuleCode>
+    <ModuleName>自定义商品排序</ModuleName>
+    <Url />
+    <SortNum>20</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.CustomSort</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>040125</ModuleCode>
+    <ParentModuleCode>0401  </ParentModuleCode>
+    <ModuleName>物流费管理</ModuleName>
+    <Url />
+    <SortNum>21</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.frmExpressFeeCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>100101</ModuleCode>
+    <ParentModuleCode>1001  </ParentModuleCode>
+    <ModuleName>问卷调查</ModuleName>
+    <Url>0</Url>
+    <SortNum>22</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.QuestionnaireSurveyList</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>100102</ModuleCode>
+    <ParentModuleCode>1001  </ParentModuleCode>
+    <ModuleName>多任务商品分享</ModuleName>
+    <Url>0</Url>
+    <SortNum>23</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.CommodityShareSetCtl</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>100104</ModuleCode>
+    <ParentModuleCode>1001  </ParentModuleCode>
+    <ModuleName>商品分享任务报表</ModuleName>
+    <Url />
+    <SortNum>25</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.CommodityShareData</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+  <Table2>
+    <ModuleCode>100105</ModuleCode>
+    <ParentModuleCode>1001  </ParentModuleCode>
+    <ModuleName>调查问券任务报表</ModuleName>
+    <Url />
+    <SortNum>26</SortNum>
+    <ClassName>FineEx.SDP.BaseInfo.QuestionnaireSurveyData</ClassName>
+    <AssemblyName>FineEx.SDP.BaseInfo.dll</AssemblyName>
+  </Table2>
+</NewDataSet>

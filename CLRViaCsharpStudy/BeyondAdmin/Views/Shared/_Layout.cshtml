@@ -1,0 +1,39 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    
+    <title>@ViewBag.Title - 登录</title>
+    @Styles.Render("~/Hadmin/base/Home/css")
+    @Styles.Render("~/Hadmin/base/layout/css")
+    @RenderSection("styles", required: false)
+   
+   
+</head>
+<body class="gray-bg">
+        @RenderBody()
+    
+    
+    @Scripts.Render("~/Hadmin/base/Home/js")
+
+    <script >
+        $.ajaxSetup({
+            type: 'POST',
+            complete: function (xhr, status) {
+                var sessionStatus = xhr.getResponseHeader('sessionstatus');
+                if (sessionStatus == 'timeout') {
+                    window.location.href = '/Account/Login';
+                }
+            }
+        });
+    </script>
+
+    @Scripts.Render("~/Hadmin/base/layout/js")
+    @RenderSection("scripts", required: false)
+    @Scripts.Render("~/Scripts/publicControl/Base/js")
+</body>
+</html>
+

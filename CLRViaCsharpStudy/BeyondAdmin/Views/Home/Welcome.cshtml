@@ -1,0 +1,82 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    @Styles.Render("~/Hadmin/base/Home/css")
+    @Scripts.Render("~/Hadmin/base/Home/js")
+    @Scripts.Render("~/Hadmin/base/Home/pace/js")
+
+
+
+    <style>
+        #departmentmanage {
+            float: left;
+            width: 20%;
+            height: 100vh;
+        }
+
+        #employeemanage {
+            float: right;
+            width: 79.9%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="departmentmanage">
+            <div class="btn-group">
+                <button type="button" class="btn btn-default">按钮 1</button>
+                <button type="button" class="btn btn-default">按钮 2</button>
+                <button type="button" class="btn btn-default">按钮 3</button>
+            </div>
+
+
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    部门信息
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">免费域名注册</li>
+                        <li class="list-group-item">免费 Window 空间托管</li>
+                        <li class="list-group-item">图像的数量</li>
+                        <li class="list-group-item">24*7 支持</li>
+                        <li class="list-group-item">每年更新成本</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="employeemanage">
+            <div class="btn-group">
+                <button type="button" class="btn btn-default">按钮 4</button>
+                <button type="button" class="btn btn-default">按钮 5</button>
+                <button type="button" class="btn btn-default">按钮 6</button>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    员工信息
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">免费域名注册</li>
+                        <li class="list-group-item">免费 Window 空间托管</li>
+                        <li class="list-group-item">图像的数量</li>
+                        <li class="list-group-item">24*7 支持</li>
+                        <li class="list-group-item">每年更新成本</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+</html>

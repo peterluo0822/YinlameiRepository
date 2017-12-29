@@ -39,6 +39,10 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RequireTest", "..\RequireTe
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeyondAdmin", "BeyondAdmin\BeyondAdmin.csproj", "{393D017D-EE1B-41C5-AEAF-74EDC37F0AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeyondAdmin.Tests", "BeyondAdmin.Tests\BeyondAdmin.Tests.csproj", "{119B6F92-F6F6-4F48-A1E0-9EC29AC32296}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +81,14 @@ Global
 		{C076F789-B6BF-408A-9B63-08A4FA9AD145}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C076F789-B6BF-408A-9B63-08A4FA9AD145}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{C076F789-B6BF-408A-9B63-08A4FA9AD145}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{393D017D-EE1B-41C5-AEAF-74EDC37F0AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393D017D-EE1B-41C5-AEAF-74EDC37F0AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393D017D-EE1B-41C5-AEAF-74EDC37F0AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393D017D-EE1B-41C5-AEAF-74EDC37F0AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119B6F92-F6F6-4F48-A1E0-9EC29AC32296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119B6F92-F6F6-4F48-A1E0-9EC29AC32296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119B6F92-F6F6-4F48-A1E0-9EC29AC32296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119B6F92-F6F6-4F48-A1E0-9EC29AC32296}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
