@@ -6,18 +6,13 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace MainFrame
+namespace WinFramwwork.test
 {
-    public partial class frmRight : FineEx.Control.Forms.BaseForm
+    public partial class frmTest2 : FineEx.Control.Forms.BaseForm
     {
-        public frmRight()
+        public frmTest2()
         {
             InitializeComponent();
         }
-
-      
-
-      
-
     }
 }

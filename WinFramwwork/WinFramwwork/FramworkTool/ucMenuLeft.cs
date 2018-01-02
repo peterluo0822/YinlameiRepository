@@ -163,6 +163,7 @@ namespace FineEx.Control.Forms
             {
                 FileInfo info = new FileInfo(file);
                 imageList1.Images.Add(info.Name.Replace(info.Extension, ""), System.Drawing.Image.FromFile(file));
+                
             }
         }
 
@@ -210,6 +211,10 @@ namespace FineEx.Control.Forms
 
         #endregion
 
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
     public class ButtonInfo
     {

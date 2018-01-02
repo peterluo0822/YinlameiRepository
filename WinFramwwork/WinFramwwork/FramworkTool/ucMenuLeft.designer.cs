@@ -55,9 +55,11 @@
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Margin = new System.Windows.Forms.Padding(5);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(118, 485);
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
+            this.toolStrip1.Size = new System.Drawing.Size(127, 485);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
+            this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
             // 
             // tsbMaxMin
             // 
@@ -66,7 +68,7 @@
             this.tsbMaxMin.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbMaxMin.Margin = new System.Windows.Forms.Padding(5, 5, 10, 5);
             this.tsbMaxMin.Name = "tsbMaxMin";
-            this.tsbMaxMin.Size = new System.Drawing.Size(100, 42);
+            this.tsbMaxMin.Size = new System.Drawing.Size(91, 42);
             this.tsbMaxMin.Text = " 缩小缩小";
             this.tsbMaxMin.Click += new System.EventHandler(this.tsbMaxMin_Click);
             // 
@@ -78,7 +80,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 50);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(118, 5);
+            this.pictureBox1.Size = new System.Drawing.Size(130, 5);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -87,12 +89,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(123)))), ((int)(((byte)(180)))));
+            this.BackColor = System.Drawing.Color.Teal;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.toolStrip1);
             this.Name = "ucMenuLeft";
-            this.Size = new System.Drawing.Size(113, 485);
+            this.Size = new System.Drawing.Size(125, 485);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

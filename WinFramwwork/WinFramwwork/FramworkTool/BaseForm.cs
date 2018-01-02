@@ -22,7 +22,6 @@ namespace FineEx.Control.Forms
         {
             InitializeComponent();
 
-            //ucToolMenu1.RandomClick += ucToolMenu1_RandomClick;
         }
 
         #region 属性

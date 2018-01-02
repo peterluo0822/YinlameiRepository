@@ -23,8 +23,6 @@ namespace MainFrame
 
         #region 初始化导航
 
-        private frmBottom frmBottom;//初始化帮助
-        private frmRight frmRight; //快速导航
         private frmMenuFill _menuFill;// 二三级导航窗体
 
         private void MainFrame_Load(object sender, EventArgs e)
