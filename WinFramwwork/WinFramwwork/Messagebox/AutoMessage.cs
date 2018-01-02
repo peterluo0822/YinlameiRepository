@@ -219,11 +219,11 @@ namespace WinFramwwork.Messagebox
                 {
                     _showTime = _showTime - 1;
                     lab_ShowTome.Text = _showTime.ToString();
-                }
-                else
-                {
-                    timer_Show.Stop();
-                    timer_out.Start();
+                    if (_showTime == 0)
+                    {
+                        timer_Show.Stop();
+                        timer_out.Start();
+                    }
                 }
             }
         }

@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using WinFramwwork.Messagebox;
 
 namespace WinFramwwork.test
 {
@@ -13,6 +14,11 @@ namespace WinFramwwork.test
         public frmTest2()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FlyMessagebox.ShowAuto(3,"保存成功！");
         }
     }
 }

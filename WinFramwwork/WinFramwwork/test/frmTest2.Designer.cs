@@ -40,6 +40,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // checkBox1
             // 
@@ -54,7 +55,7 @@
             // frmTest2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(597, 464);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);

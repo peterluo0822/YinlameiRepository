@@ -19,8 +19,8 @@ namespace WinFramwwork
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new MainFrom());  
-            //Application.Run(new FrmTest());
-            Application.Run(new Messagebox.AutoMessage(5,"hello"));
+            Application.Run(new FrmTest());
+            //Application.Run(new Messagebox.AutoMessage(5,"hello"));
             
         }
     }

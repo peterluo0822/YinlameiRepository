@@ -20,7 +20,8 @@ namespace WinFramwwork.test
         private void FrmTest_Load(object sender, EventArgs e)
         {
             dockManager1.DockWindow(new frmTest1(), DockStyle.Fill);
-            dockManager1.DockWindow(new frmTest2(), DockStyle.Fill);            
+            dockManager1.DockWindow(new frmTest2(), DockStyle.Fill);
+            dockManager1.DockWindow(new frmTest2(), DockStyle.Fill);
         }
     }
 }

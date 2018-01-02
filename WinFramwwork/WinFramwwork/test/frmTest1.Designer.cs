@@ -53,7 +53,7 @@
             // frmTest1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.BackColor = System.Drawing.Color.Aqua;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(597, 464);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
