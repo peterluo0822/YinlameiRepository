@@ -1,8 +1,8 @@
-﻿using System;
+﻿using CodeGenerator.Client.WinFormsUI.Docking;
+using System;
 using System.ComponentModel;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using CodeGenerator.Client.WinFormsUI.Docking;
 
 
 namespace FineEx.Control.Forms

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MainFrame;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,13 +15,13 @@ namespace WinFramwwork.test
     {
         public FrmTest()
         {
-            InitializeComponent();
+            InitializeComponent();     
         }
 
         private void FrmTest_Load(object sender, EventArgs e)
         {
-            dockManager1.DockWindow(new frmTest1(), DockStyle.Fill);
-            dockManager1.DockWindow(new frmTest2(), DockStyle.Fill);
+            //dockManager1.DockWindow(new frmTest1(), DockStyle.Fill);
+            //dockManager1.DockWindow(new frmMenuFill(), DockStyle.Fill);
             dockManager1.DockWindow(new frmTest2(), DockStyle.Fill);
         }
     }

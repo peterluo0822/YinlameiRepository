@@ -183,6 +183,16 @@ namespace WinFramwwork.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap no {
+            get {
+                object obj = ResourceManager.GetObject("no", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap restore_down {
             get {
                 object obj = ResourceManager.GetObject("restore_down", resourceCulture);
@@ -266,6 +276,16 @@ namespace WinFramwwork.Properties {
         internal static System.Drawing.Bitmap ToolUp_norma {
             get {
                 object obj = ResourceManager.GetObject("ToolUp_norma", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap WinFormsUI_ControlExs_FormEx_Res_fringe_bkg {
+            get {
+                object obj = ResourceManager.GetObject("WinFormsUI_ControlExs_FormEx_Res_fringe_bkg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

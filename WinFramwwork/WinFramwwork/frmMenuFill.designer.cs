@@ -93,7 +93,7 @@
             this.ResetVisible = true;
             this.SaveVisible = true;
             this.Tag = "首页";
-            this.Text = "Form1";
+            this.Text = "首页";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMenuFill_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

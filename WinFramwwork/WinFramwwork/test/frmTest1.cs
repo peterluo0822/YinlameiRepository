@@ -13,6 +13,7 @@ namespace WinFramwwork
         public frmTest1()
         {
             InitializeComponent();
+            this.AllowClose = false;
         }
     }
 }

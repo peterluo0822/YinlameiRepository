@@ -139,6 +139,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AutoMessage";
+            this.ShowInTaskbar = false;
             this.Text = "AutoMessage";
             this.Load += new System.EventHandler(this.AutoMessage_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Controls_MouseDown);

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>51cf160c-4a56-4053-b3fe-a35c2649339e</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>WinFormsUI</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="WinFormsUI\ColorTable.cs" />
+    <Compile Include="WinFormsUI\FormBase.cs" />
+    <Compile Include="WinFormsUI\FormEx.cs" />
+    <Compile Include="WinFormsUI\MouseDownEventHandler.cs" />
+    <Compile Include="WinFormsUI\SystemButton.cs" />
+    <Compile Include="WinFormsUI\SystemButtonManager.cs" />
+    <Compile Include="WinFormsUI\ImageButton.cs" />
+    <Compile Include="WinFormsUI\QQButton.cs" />
+    <Compile Include="WinFormsUI\QQCheckBox.cs" />
+    <Compile Include="WinFormsUI\QQGlassButton.cs" />
+    <Compile Include="WinFormsUI\QQMessageBox.cs" />
+    <Compile Include="WinFormsUI\QQMessageBoxButtons.cs" />
+    <Compile Include="WinFormsUI\QQMessageBoxIcon.cs" />
+    <Compile Include="WinFormsUI\QQRadioButton.cs" />
+    <Compile Include="WinFormsUI\QQTextBox.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Controls\XListView.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Controls\LVGROUP.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Controls\ListViewGroupMask.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Controls\ListViewGroupState.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Docking\FormLoadEventArgs.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Docking\FormLoadEventHandler.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Docking\DockContainer.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Docking\DockEventArgs.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Docking\DockEventHandler.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Docking\DockForm.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Docking\DockVisualStyle.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Docking\DockManager.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Docking\DockPanel.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Docking\DockContainerType.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Docking\DockWindow.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Docking\HitTest.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Docking\Msgs.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Docking\FlatButton.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Docking\OverlayForm.cs" />
+    <Compile Include="CodeGenerator\Client\WinFormsUI\Controls\ListViewEx.cs" />
+    <Compile Include="WinFormsUI\ClassStyle.cs" />
+    <Compile Include="WinFormsUI\MouseOperate.cs" />
+    <Compile Include="WinFormsUI\QQControlState.cs" />
+    <Compile Include="WinFormsUI\SystemButtonState.cs" />
+    <Compile Include="WinFormsUI\WindowStyle.cs" />
+    <Compile Include="WinFormsUI\WindowStyleEx.cs" />
+    <Compile Include="WinFormsUI\RenderHelper.cs" />
+    <Compile Include="WinFormsUI\Win32.cs" />
+    <Compile Include="WinFormsUI\Properties\Resources.cs" />
+    <EmbeddedResource Include="WinFormsUI.FormEx.resources" />
+    <EmbeddedResource Include="WinFormsUI.QQMessageBox.resources" />
+    <EmbeddedResource Include="CodeGenerator.Client.WinFormsUI.Docking.DockContainer.resources" />
+    <EmbeddedResource Include="CodeGenerator.Client.WinFormsUI.Docking.DockForm.resources" />
+    <EmbeddedResource Include="CodeGenerator.Client.WinFormsUI.Docking.DockManager.resources" />
+    <EmbeddedResource Include="CodeGenerator.Client.WinFormsUI.Docking.DockPanel.resources" />
+    <EmbeddedResource Include="CodeGenerator.Client.WinFormsUI.Docking.DockWindow.resources" />
+    <EmbeddedResource Include="CodeGenerator.Client.WinFormsUI.Docking.FlatButton.resources" />
+    <EmbeddedResource Include="CodeGenerator.Client.WinFormsUI.Docking.OverlayForm.resources" />
+    <EmbeddedResource Include="WinFormsUI.Properties.Resources.resources" />
+    <EmbeddedResource Include="WinFormsUI.Docking.img.DockBottom.bmp" />
+    <EmbeddedResource Include="WinFormsUI.Docking.img.DockAll.bmp" />
+    <EmbeddedResource Include="WinFormsUI.Docking.img.DockLeft.bmp" />
+    <EmbeddedResource Include="WinFormsUI.Docking.img.DockRight.bmp" />
+    <EmbeddedResource Include="WinFormsUI.Docking.img.DockTop.bmp" />
+    <EmbeddedResource Include="WinFormsUI.Docking.img.DockCenter.bmp" />
+    <EmbeddedResource Include="WinFormsUI.Docking.img.DockAll.png" />
+    <EmbeddedResource Include="WinFormsUI.ControlExs.FormEx.Res.fringe_bkg.png" />
+    <EmbeddedResource Include="WinFormsUI.ControlExs.FormEx.Res.SystemButtons.close_down.png" />
+    <EmbeddedResource Include="WinFormsUI.ControlExs.FormEx.Res.SystemButtons.close_highlight.png" />
+    <EmbeddedResource Include="WinFormsUI.ControlExs.FormEx.Res.SystemButtons.close_normal.png" />
+    <EmbeddedResource Include="WinFormsUI.ControlExs.FormEx.Res.SystemButtons.max_down.png" />
+    <EmbeddedResource Include="WinFormsUI.ControlExs.FormEx.Res.SystemButtons.max_highlight.png" />
+    <EmbeddedResource Include="WinFormsUI.ControlExs.FormEx.Res.SystemButtons.max_normal.png" />
+    <EmbeddedResource Include="WinFormsUI.ControlExs.FormEx.Res.SystemButtons.min_down.png" />
+    <EmbeddedResource Include="WinFormsUI.ControlExs.FormEx.Res.SystemButtons.min_highlight.png" />
+    <EmbeddedResource Include="WinFormsUI.ControlExs.FormEx.Res.SystemButtons.min_normal.png" />
+    <EmbeddedResource Include="WinFormsUI.ControlExs.FormEx.Res.SystemButtons.restore_down.png" />
+    <EmbeddedResource Include="WinFormsUI.ControlExs.FormEx.Res.SystemButtons.restore_highlight.png" />
+    <EmbeddedResource Include="WinFormsUI.ControlExs.FormEx.Res.SystemButtons.restore_normal.png" />
+  </ItemGroup>
+</Project>
